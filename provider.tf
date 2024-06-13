@@ -11,7 +11,7 @@ terraform {
 provider "google" {
   project = "networklogic01"
   region = "us-west4"
-  credentials = "./key.json"
+  credentials = var.key_json
 }
 
 
