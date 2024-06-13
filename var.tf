@@ -1,4 +1,5 @@
-
+variable "key_json"{
+description = "credential key"
 
 variable "instance_count" {
   description = "Number of instances to create"
